@@ -1,0 +1,30 @@
+@media (max-width:375px){
+    body{
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 400;   
+        background-image: url('/images/bg-mobile.svg');    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: var(--violet);
+    }
+
+    .logo{        
+        max-width: 375px;
+        margin:  50px 180px 80px auto;    
+    }
+
+    main .container{          
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    main .mockup{
+        width: 100%;    
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        margin: auto;    
+    }
+}
