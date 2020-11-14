@@ -1,0 +1,101 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-image: url('/images/bg-desktop.svg');
+    background-color: var(--violet);
+    
+}
+
+/* font-family: 'Poppins', sans-serif;*/
+
+/* Logo*/
+
+.logo{
+    margin: 50px 0 80px 50px;
+}
+
+/* Container */
+/* main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;           
+} */
+
+main .mockup{
+    display: flex;
+    justify-content: left;
+    align-items: center;    
+}
+
+main .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    color: #fff;    
+}
+
+.container .description h1{      
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.container .description p{       
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+main .description .btn{
+    width: 10rem;
+    height: 3rem;    
+    border-radius: 30px;
+    color: var(--violet);
+    cursor: pointer;
+    background-color: #fff;
+    border-style: none;
+    
+}
+
+main .description .btn:hover{
+    background-color: var(--magenta);
+    color: #fff;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+
+footer span{ 
+    width: 35px;
+    height: 35px;
+    padding-top: 5px;
+    margin: 20px 5px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer span:hover{ 
+    border: 1px solid var(--magenta);
+    color: var(--magenta);
+}
