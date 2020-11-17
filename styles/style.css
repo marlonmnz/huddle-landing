@@ -35,7 +35,6 @@ main .wrapper{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--violet);
-    overflow: hidden;
 }
 
 main .container{ 
