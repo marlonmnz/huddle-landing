@@ -7,15 +7,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-body{
+body{    
     font-family: 'Open Sans', sans-serif; 
-    font-weight: 400;   
-    background-image: url('/images/bg-desktop.svg');    
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: var(--violet);
+    font-weight: 400;    
 }
 
 /* Logo*/
@@ -32,25 +29,37 @@ main .wrapper{
     max-width: 1440px;         
 }
 
+.bg{    
+    height: 100vh;
+    background-image: url('/images/bg-desktop.svg');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--violet);
+    overflow: hidden;
+}
+
 main .container{ 
-    width: 100%;    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-items: center;
     margin-top: 100px;
-
+    margin: 0 auto;
 }
 
 main .mockup{
-    width: 100%;    
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    padding-right: 50px;
-    margin: 0 auto;    
+    padding-right: 50px;           
 }
 
-main .container .description{        
+main .mockup img{
+    width: 100%;
+}
+
+main .container .description{   
     display: flex;
     justify-content: center;    
     flex-direction: column;        
@@ -59,31 +68,32 @@ main .container .description{
 }
 
 main .container .description h1{
-    width: 63.3%;
+    width: 30rem; /*63.3%*/
     font-size: 40px;
     font-family: 'Poppins', sans-serif; 
     font-weight: 700;   
 }
 
 main .container .description p{ 
-    width: 67%;         
+    width: 36rem;         
     font-size: 20px;    
     font-family: 'Open Sans', sans-serif;
     margin: 30px 0 30px 0;    
 }
 
-main .description a .btn{
-    width: 10rem;
-    height: 3rem;    
+main .btn{
+    width: 13rem;
+    height: 3.5rem;    
     border-radius: 30px;
     color: var(--violet);
     cursor: pointer;
     background-color: #fff;
     border-style: none;    
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
 }
 
-main .description a .btn:hover{
+main .btn:hover{
     background-color: var(--magenta);
     color: #fff;
 }
@@ -91,11 +101,11 @@ main .description a .btn:hover{
 /*Footer*/
 
 footer{
-    max-width: 1440px;
+    width: 86.5%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin: 100px auto 0 auto;
+    margin: 50px 0;
     padding-right: 25px;
 }
 
