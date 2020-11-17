@@ -152,7 +152,7 @@
         background-size: auto;
         background-position: top;        
         background-color: var(--violet);
-        overflow: hidden;
+        overflow: scroll;
     }
     
 
