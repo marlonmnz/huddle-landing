@@ -6,6 +6,7 @@ São dois modelos: Desktop e mobile.
 Busquei deixar o mais próximo possível do original e responsivo.
 
 Link para o deploy: https://huddle.marlonmnz.vercel.app/
+
 Fonte: https://www.frontendmentor.io/
 
 ## Preview da aplicação ##
